@@ -15,3 +15,6 @@ Step 2
 Inside your head element, nest a meta element with the charset attribute set to the value "UTF-8".
 
 Below that meta element, add a title element. The title element's text should be Hotel Feedback Form.
+
+Step 3
+To prepare to create some actual content, add a body element below the head element.
