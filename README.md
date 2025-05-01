@@ -184,3 +184,127 @@ Below your second label element, add a radio button with the id set to "no-optio
 
 When you are finished, you can now try out the radio buttons by selecting one option at a time.
 
+Step 21
+The next section of the form will ask users why they chose that particular hotel. Users will have the opportunity to select multiple options.
+
+Start by adding another fieldset element.
+
+Inside the fieldset element, add a legend element with the text Why did you choose to stay at our hotel? (Check all that apply).
+
+Step 22
+When you want a user to select multiple options from a list, you can use checkboxes.
+
+Here is an example of how to work with checkboxes dealing with food options:
+
+Example Code
+<fieldset>
+  <legend>Food Options</legend>
+  <label for="pizza">Pizza</label>
+  <input type="checkbox" id="pizza" name="food" value="pizza">
+  <label for="burger">Burger</label>
+  <input type="checkbox" id="burger" name="food" value="burger">
+</fieldset>
+The value attribute is used to specify the value that will be sent to the server when the form is submitted.
+
+Below your legend element, add a label element with the text of Social Media Ads. The for attribute should be set to "ads".
+
+Below your label element, add a checkbox input with the id, name and value attributes set to "ads".
+
+Step 23
+Add another label with the text of Personal Recommendation. The for attribute should be set to "recommendation".
+
+Below the label element, add another checkbox input with the id, name and value attributes set to "recommendation".
+
+Step 24
+Next, add another label element with the text of Location and the for attribute set to "location".
+
+For the checkbox input, both the id, name and value attributes should be set to "location".
+
+Below that input element, add another label element with the text of Reputation and the for attribute set to "reputation".
+
+For the checkbox input, both the id, name and value attributes should be set to "reputation".
+
+Step 25
+To make a checkbox input checked by default, you can add the checked attribute.
+
+Here is an example of using the checked attribute:
+
+Example Code
+<input checked type="checkbox" id="checked" name="checked">
+Add the checked attribute to the checkbox input with the id of "reputation" to make it checked by default.
+
+Step 26
+For the final label and input inside this fieldset, you will add a label element with the text of Price and the for attribute set to "price".
+
+The checkbox input should have the id, name and value attributes set to "price".
+
+Now you can test out your form by selecting the various checkboxes.
+
+Step 28
+When you want users to make selections from a dropdown menu, you can use the select and option elements.
+
+Here is an example of using the select and option elements to create a dropdown for different cities:
+
+Example Code
+<label for="city">Choose a City: </label>
+<select id="city" name="city">
+  <option value="new-york">New York</option>
+  <option value="los-angeles">Los Angeles</option>
+  <option value="chicago">Chicago</option>
+  <option value="miami">Miami</option>
+</select>
+Start by adding a select element with the name and id attributes set to "service".
+
+Step 29
+Inside your select element, add the following five option elements with these corresponding values for the option text and value attribute:
+
+Value Attributes:
+
+poor
+satisfactory
+good
+very-good
+excellent
+Option Element Text:
+
+Poor
+Satisfactory
+Good
+Very Good
+Excellent
+
+Step 30
+To make an option selected by default, you can add the selected attribute to the option element you want to be selected.
+
+Here is an example using the selected attribute:
+
+Example Code
+<option selected value="amazing">Amazing</option>
+
+Inside your select element, add the selected attribute to the option element with the value of "excellent".
+
+Step 31
+Your hotel feedback form should also give users the ability to rate the food.
+
+Start by adding a label element with the text of How was the food?. That label element should have a for attribute set to "food".
+
+Below your label element, add a select element with an id and name set to "food".
+
+Step 32
+Inside your select element, add the following five option elements with these corresponding values for the option text and value attribute:
+
+Value Attribute:
+
+poor
+satisfactory
+good
+very-good
+excellent
+Option Text:
+
+Poor
+Satisfactory
+Good
+Very Good
+Excellent
+Don't forget to add the selected attribute to the option element with the value of "excellent".
