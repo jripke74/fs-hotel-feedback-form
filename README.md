@@ -308,3 +308,35 @@ Good
 Very Good
 Excellent
 Don't forget to add the selected attribute to the option element with the value of "excellent".
+
+Step 33
+The last section of the form will allow users to provide any additional feedback they like about the hotel.
+
+Start by adding a label element with the text of Other Comments? and a for attribute set to "comments".
+
+Step 34
+If you want users to have more space to write their comments, you can use a textarea element.
+
+The textarea element is a multi-line text input control that allows users to enter text that is longer than a single line. It can be used to create a comment box, a message input, or other text input that requires multiple lines.
+
+Here's an example of a textarea element:
+
+Example Code
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+The rows attribute is used to specify the visible height of the textarea, and the cols attribute is used to specify the visible width of the textarea.
+
+Below your label element, add a textarea element. In the next step, you will add the necessary attributes.
+
+Step 35
+For your textarea element, add an id and name attribute with the value of "comments".
+
+For the cols attribute set the value to 30 and for the rows attribute set the value to 10.
+
+Step 36
+For the last step in the hotel feedback form workshop, you will need to add a submit button to the form.
+
+Remember that you learned how to work submit buttons in the previous lecture videos.
+
+Add a button element with the type attribute set to "submit" and the text content set to Submit.
+
+And with that, your hotel feedback form is complete!
